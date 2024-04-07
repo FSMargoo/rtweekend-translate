@@ -52,7 +52,11 @@ public:
 
 public:
 	DWORD& At(const size_t& X, const size_t& Y) const {
-		if (Y * Height + X >= MaximumPixel) {
+		/* Fixed in 2024/4/7
+		 * Original Code : Y * Height + X >= MaximumPixel
+		 * Thanks to Zhi Yi
+		 */
+		if (Y * Width + X >= MaximumPixel) {
 			std::clog << "\rDevice Failure : Subscript out of range." << std::flush;
 		}
 
