@@ -1,4 +1,4 @@
-# Ray Tracing in One Weekend（中文法医）
+# Ray Tracing in One Weekend（中文翻译）
 
 Peter Shirley 教授的 Ray Tracing Weekend 系列书籍一直是我个人十分喜爱的一本入门书籍，在初次阅读完后就萌生了对其进行翻译的想法，鉴于原书是基于 STBImage 的代码，和国内大多使用 EasyX 进行教学的环境有一定出入，因此我对代码进行了一定的“本土化”，并且，我对原著中的图片也重绘翻译，对一些篇章进行了修改，希望可以有利于后来者吧。
 
